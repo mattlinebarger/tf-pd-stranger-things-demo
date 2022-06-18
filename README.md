@@ -23,8 +23,8 @@ A basic demo(gorgon) of building out a PagerDuty instance with Terraform.
 
 3. Apply
 
-```bash
-$ terraform apply -var="API_TOKEN=TOKEN_HERE" -var="EMAIL_DOMAIN=DOMAIN_HERE" -var="TZ=TIMEZONE_HERE"
-```
+    ```bash
+    $ terraform apply -var="API_TOKEN=TOKEN_HERE" -var="EMAIL_DOMAIN=DOMAIN_HERE" -var="TZ=TIMEZONE_HERE"
+    ```
 
-Note: `EMAIL_DOMAIN` and `TZ` are optional variables. If left blank `example.com` and `America/Chicago` will be used as defaults.
+    Note: `EMAIL_DOMAIN` and `TZ` are optional variables. If left blank `example.com` and `America/Chicago` will be used as defaults.
